@@ -1,0 +1,90 @@
+/* Set font size on all <p> elements */
+        p {
+        font-size: 12px;
+        color: rebeccapurple;
+        }
+        div p {
+            background-color: lightblue;
+        Color: red;  
+        }
+        p.green {
+        color: green;
+        background-color: black;
+        margin: 10px;
+        padding: 30px;
+        }
+        #lnk {
+        background-color: lightblue; 
+        }
+        h1{
+            Background-color: cyan;
+            color: white   ;
+        }
+
+        .Firstlist--0{
+            display: block; /*Para que use todo el largo*/
+            /*opacity: 0;   para opacidad que no se vea pero sea interactuable*/
+            /*Display:None  para quitarlo de la vista*/
+        }
+
+          
+        .Firstlist--1{
+            background-color: aquamarine;
+        }
+
+        button {
+            Cursor: pointer;
+        }
+
+        .flex-container1{
+            margin  : 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+            /* gap:10; */
+            height: 100px;
+        }
+
+        .flex-container2{
+            margin  : 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* gap:10; */
+            height: 100px;
+        }
+
+        .flex-container3{
+            margin  : 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            display: flex;
+            align-items: flex-end;
+            /* gap:10; */
+            height: 100px;
+        }
+
+        .flex-container4{
+            margin  : 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            /* gap:10; */
+            height: 100px;
+        }   
+
+        .flex-container5{
+            margin  : 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            display: flex;
+            align-items: flex-start;
+            /* gap:10; */
+            height: 100px;
+        }
